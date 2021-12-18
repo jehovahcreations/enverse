@@ -37,7 +37,7 @@
 						<!-- logo of the page -->
 						<div class="logo">
 							<a href="home.html">
-								<img src="{{ asset('css/images/logo.jpeg') }}"alt="Montero" class="img-fluid" width="200%">
+								<img src="{{ asset('public/css/images/logo.jpeg') }}"alt="Montero" class="img-fluid" width="200%">
 							</a>
 						</div>
 					</div>
@@ -94,7 +94,7 @@
 							<div class="txtWrap pt-1 pr-lg-5 pr-xl-10 mb-6">
 								<div class="fLogo mb-6 mb-lg-9">
 									<a href="home.html">
-										<img src="{{ asset('css/images/logo2.png') }}"alt="Montero" class="img-fluid">
+										<img src="{{ asset('public/css/images/logo2.png') }}"alt="Montero" class="img-fluid">
 									</a>
 								</div>
 								<p>2020 - 2019 © <a href="home">Jehovah Creations.</a> All rights reserved.</p>
@@ -137,7 +137,7 @@
 			<span class="circleGradient d-sm-block overflow-hidden rounded-circle position-absolute" data-circle="circleI"></span>
 			<span class="circleGradient d-sm-block overflow-hidden rounded-circle position-absolute" data-circle="circleII"></span>
 			<span class="ovelGradient d-block position-absolute">
-				<img src="{{ asset('css/images/ovel2.png') }}alt="Graident image" class="img-fluid">
+				<img src="{{ asset('public/css/images/ovel2.png') }}alt="Graident image" class="img-fluid">
 			</span>
 		</footer>
 		<!-- Modal -->
@@ -181,7 +181,7 @@
 		<span id="back-top" class="text-center rounded-circle fa fa-angle-up"></span>
 		<!-- loader of the page -->
 		<div id="loader" class="loader-holder">
-			<div class="block"><img src="{{ asset('css/images/svg/puff.svg') }}"width="100" alt="loader"></div>
+			<div class="block"><img src="{{ asset('public/css/images/svg/puff.svg') }}"width="100" alt="loader"></div>
 		</div>
 	</div>
     <script>function myFunction() {
@@ -213,8 +213,8 @@
 	<!-- include jQuery -->
 	{{-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> --}}
 	<!-- include jQuery -->
-    <script src="{{ asset('css/js/jqueryCustom.js')}}"></script>
-    <script src="{{ asset('css/js/formValidator.js')}}"></script>
+    <script src="{{ asset('public/css/js/jqueryCustom.js')}}"></script>
+    <script src="{{ asset('public/css/js/formValidator.js')}}"></script>
 	{{-- <script src="js/jqueryCustom.js"></script> --}}
 	<!-- include jQuery -->
 	{{-- <script src="js/formValidator.js"></script> --}}

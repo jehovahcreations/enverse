@@ -11,12 +11,12 @@
     {{-- <link href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" rel="stylesheet">
     <link href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css" rel="stylesheet"> --}}
       <!-- Styles -->
-      {{-- <link rel="stylesheet" type="text/css" href="{{ asset('/assets/vendor/bootstrap/css/bootstrap.min.css') }}"> --}}
+      {{-- <link rel="stylesheet" type="text/css" href="{{ asset('public//assets/vendor/bootstrap/css/bootstrap.min.css') }}"> --}}
       <link href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" rel="stylesheet">
       <link href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="{{ asset('/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
-      <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/util.css') }}">
-      <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/main.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ asset('public/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/util.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/main.css') }}">
    </head>
    <body class="larasnap {{ $class ?? '' }}">
       <div class="limiter">
@@ -66,15 +66,15 @@
          </div>
       </div>
       <!-- Scripts -->
-      {{-- <script src="{{ asset('assets/vendor/jquery/jquery-3.2.1.min.js') }}"></script> --}}
-      <script src="{{ asset('assets/vendor/bootstrap/js/popper.js') }}"></script>
-      <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
-      <script src="{{ asset('assets/vendor/tilt/tilt.jquery.min.js') }}"></script>
+      {{-- <script src="{{ asset('public/assets/vendor/jquery/jquery-3.2.1.min.js') }}"></script> --}}
+      <script src="{{ asset('public/assets/vendor/bootstrap/js/popper.js') }}"></script>
+      <script src="{{ asset('public/assets/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+      <script src="{{ asset('public/assets/vendor/tilt/tilt.jquery.min.js') }}"></script>
       <script >
          $('.js-tilt').tilt({
          	scale: 1.1
          })
       </script>
-      <script src="{{ asset('assets/js/main.js') }}"></script>
+      <script src="{{ asset('public/assets/js/main.js') }}"></script>
    </body>
 </html>
